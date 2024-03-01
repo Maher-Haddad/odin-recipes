@@ -1,0 +1,55 @@
+h1
+
+{
+    font-family: cursive;
+    font-weight: lighter;
+    color: blue;
+    font-style: italic;
+    text-align: center;
+    font-size: 75px ;
+
+    
+}
+
+.homepage-recipe-list
+{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:left;
+}
+
+h4
+{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 25px;
+    background-color: black;
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body
+{
+    background-color: brown;
+}
+
+ul,ol,p
+{
+    font-size: larger;
+
+}
+
+button
+{
+    background-color: black;
+    color: blue;
+    text-align: center;
+}
