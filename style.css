@@ -3,10 +3,13 @@ h1
 {
     font-family: cursive;
     font-weight: lighter;
-    color: blue;
+    color: black;
     font-style: italic;
     text-align: center;
     font-size: 75px ;
+    background-clip: content-box;
+    box-shadow: inset 0 0 0 5px gray;
+    padding: 5px;
 
     
 }
@@ -16,16 +19,27 @@ h1
     font-size: 35px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:left;
+    display:table;
+    margin: 0px auto;
+    margin-top: -20px;
+    padding: 30px 400px;
+    background-clip: content-box;
+    box-shadow: inset 0 0 0 5px gray;
+    
 }
 
 h4
 {
-    color: blue;
-    text-align: center;
+    font-family: cursive;
+    font-weight: lighter;
+    color: black;
     font-style: italic;
-    font-weight:bolder;
-    font-size: 25px;
-    background-color: black;
+    text-align: center;
+    font-size: 35px ;
+    background-clip: content-box;
+    box-shadow: inset 0 0 0 5px gray;
+    padding: 5px;
+
 }
 
 .center
@@ -36,10 +50,6 @@ h4
     width: 50%;
 }
 
-body
-{
-    background-color: brown;
-}
 
 ul,ol,p
 {
@@ -49,7 +59,44 @@ ul,ol,p
 
 button
 {
-    background-color: black;
-    color: blue;
+    color: black;
     text-align: center;
+    display:table;
+    margin: 0px auto;
+    font-size: large;
+    background-color: gray;
+}
+
+
+.fixed-pizza-homepage
+{
+    position: fixed;
+    bottom: 50px;
+    left: 60px;
+    background-clip: content-box;
+    box-shadow:inset 0 0 0 10px gray;
+    padding: 10px;
+
+}
+
+.fixed-hamburger-homepage
+{
+    position: fixed;
+    bottom: 50px;
+    right: 510px;
+    background-clip: content-box;
+    box-shadow:inset 0 0 0 10px gray;
+    padding: 10px;
+}
+
+.fixed-cake-homepage
+{
+
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    background-clip: content-box;
+    box-shadow:inset 0 0 0 10px gray;
+    padding: 10px;
+
 }
